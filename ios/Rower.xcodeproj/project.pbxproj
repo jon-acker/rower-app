@@ -41,54 +41,8 @@
 		30A0434914DC770100060A13 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A0434614DC770100060A13 /* Localizable.strings */; };
 		30E1352710E2C1420031B30D /* Cordova.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30E1352610E2C1420031B30D /* Cordova.plist */; };
 		30E5649213A7FCAF007403D8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E5649113A7FCAF007403D8 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		66A0AC3E169ED25D00A20070 /* cordova-2.2.0.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC02169ED25D00A20070 /* cordova-2.2.0.js */; };
-		66A0AC3F169ED25D00A20070 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC04169ED25D00A20070 /* index.css */; };
-		66A0AC40169ED25D00A20070 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC05169ED25D00A20070 /* index.html */; };
-		66A0AC41169ED25D00A20070 /* jasmine.html in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC06169ED25D00A20070 /* jasmine.html */; };
-		66A0AC42169ED25D00A20070 /* drum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC08169ED25D00A20070 /* drum.mp3 */; };
-		66A0AC43169ED25D00A20070 /* hihat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC09169ED25D00A20070 /* hihat.mp3 */; };
-		66A0AC44169ED25D00A20070 /* index.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC0A169ED25D00A20070 /* index.js */; };
-		66A0AC45169ED25D00A20070 /* jquery-1.8.3.min.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC0C169ED25D00A20070 /* jquery-1.8.3.min.js */; };
-		66A0AC46169ED25D00A20070 /* LowLatencyAudio.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC0D169ED25D00A20070 /* LowLatencyAudio.js */; };
-		66A0AC47169ED25D00A20070 /* smoothie.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC0E169ED25D00A20070 /* smoothie.js */; };
-		66A0AC48169ED25D00A20070 /* metronome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC0F169ED25D00A20070 /* metronome.mp3 */; };
-		66A0AC49169ED25D00A20070 /* accelerometer-playback.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC11169ED25D00A20070 /* accelerometer-playback.js */; };
-		66A0AC4A169ED25D00A20070 /* accelerometer.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC12169ED25D00A20070 /* accelerometer.js */; };
-		66A0AC4B169ED25D00A20070 /* datastream.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC13169ED25D00A20070 /* datastream.js */; };
-		66A0AC4C169ED25D00A20070 /* detector.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC14169ED25D00A20070 /* detector.js */; };
-		66A0AC4D169ED25D00A20070 /* metronome.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC15169ED25D00A20070 /* metronome.js */; };
-		66A0AC4E169ED25D00A20070 /* score-calculator.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC16169ED25D00A20070 /* score-calculator.js */; };
-		66A0AC4F169ED25D00A20070 /* sound.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC17169ED25D00A20070 /* sound.js */; };
-		66A0AC50169ED25D00A20070 /* ui.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC18169ED25D00A20070 /* ui.js */; };
-		66A0AC51169ED25D00A20070 /* rower.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC19169ED25D00A20070 /* rower.js */; };
-		66A0AC52169ED25D00A20070 /* icon-57-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC1D169ED25D00A20070 /* icon-57-2x.png */; };
-		66A0AC53169ED25D00A20070 /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC1E169ED25D00A20070 /* icon-57.png */; };
-		66A0AC54169ED25D00A20070 /* icon-72-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC1F169ED25D00A20070 /* icon-72-2x.png */; };
-		66A0AC55169ED25D00A20070 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC20169ED25D00A20070 /* icon-72.png */; };
-		66A0AC56169ED25D00A20070 /* screen-ipad-landscape-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC23169ED25D00A20070 /* screen-ipad-landscape-2x.png */; };
-		66A0AC57169ED25D00A20070 /* screen-ipad-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC24169ED25D00A20070 /* screen-ipad-landscape.png */; };
-		66A0AC58169ED25D00A20070 /* screen-ipad-portrait-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC25169ED25D00A20070 /* screen-ipad-portrait-2x.png */; };
-		66A0AC59169ED25D00A20070 /* screen-ipad-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC26169ED25D00A20070 /* screen-ipad-portrait.png */; };
-		66A0AC5A169ED25D00A20070 /* screen-iphone-landscape-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC27169ED25D00A20070 /* screen-iphone-landscape-2x.png */; };
-		66A0AC5B169ED25D00A20070 /* screen-iphone-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC28169ED25D00A20070 /* screen-iphone-landscape.png */; };
-		66A0AC5C169ED25D00A20070 /* screen-iphone-portrait-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC29169ED25D00A20070 /* screen-iphone-portrait-2x.png */; };
-		66A0AC5D169ED25D00A20070 /* screen-iphone-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC2A169ED25D00A20070 /* screen-iphone-portrait.png */; };
-		66A0AC5E169ED25D00A20070 /* accelerometerSpec.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC2C169ED25D00A20070 /* accelerometerSpec.js */; };
-		66A0AC5F169ED25D00A20070 /* detectorSpec.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC2D169ED25D00A20070 /* detectorSpec.js */; };
-		66A0AC60169ED25D00A20070 /* filterSpec.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC2E169ED25D00A20070 /* filterSpec.js */; };
-		66A0AC61169ED25D00A20070 /* helper.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC2F169ED25D00A20070 /* helper.js */; };
-		66A0AC62169ED25D00A20070 /* index.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC30169ED25D00A20070 /* index.js */; };
-		66A0AC63169ED25D00A20070 /* console-runner.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC32169ED25D00A20070 /* console-runner.js */; };
-		66A0AC64169ED25D00A20070 /* jasmine-html.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC34169ED25D00A20070 /* jasmine-html.js */; };
-		66A0AC65169ED25D00A20070 /* jasmine.css in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC35169ED25D00A20070 /* jasmine.css */; };
-		66A0AC66169ED25D00A20070 /* jasmine.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC36169ED25D00A20070 /* jasmine.js */; };
-		66A0AC67169ED25D00A20070 /* MIT.LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC37169ED25D00A20070 /* MIT.LICENSE */; };
-		66A0AC68169ED25D00A20070 /* metronomeSpec.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC38169ED25D00A20070 /* metronomeSpec.js */; };
-		66A0AC69169ED25D00A20070 /* mock-data.csv in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC39169ED25D00A20070 /* mock-data.csv */; };
-		66A0AC6A169ED25D00A20070 /* rowerSpec.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC3A169ED25D00A20070 /* rowerSpec.js */; };
-		66A0AC6B169ED25D00A20070 /* run-tests.sh in Resources */ = {isa = PBXBuildFile; fileRef = 66A0AC3B169ED25D00A20070 /* run-tests.sh */; };
-		66A0AC6C169ED25D00A20070 /* scoreCalculatorSpec.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC3C169ED25D00A20070 /* scoreCalculatorSpec.js */; };
-		66A0AC6D169ED25D00A20070 /* soundPlayerSpec.js in Sources */ = {isa = PBXBuildFile; fileRef = 66A0AC3D169ED25D00A20070 /* soundPlayerSpec.js */; };
+		664D86F0169EDABA00DC25EA /* www in Resources */ = {isa = PBXBuildFile; fileRef = 664D86EF169EDABA00DC25EA /* www */; };
+		664D86F2169EDAC700DC25EA /* www-ios in Resources */ = {isa = PBXBuildFile; fileRef = 664D86F1169EDAC700DC25EA /* www-ios */; };
 		66B7656116920CB100AB0B5E /* LowLatencyAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B7656016920CB100AB0B5E /* LowLatencyAudio.m */; };
 		66B7656416920D7D00AB0B5E /* LowLatencyAudioAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B7656316920D7D00AB0B5E /* LowLatencyAudioAsset.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
@@ -150,54 +104,8 @@
 		30E1352610E2C1420031B30D /* Cordova.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Cordova.plist; path = ../Cordova.plist; sourceTree = "<group>"; };
 		30E5649113A7FCAF007403D8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		32CA4F630368D1EE00C91783 /* Rower-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rower-Prefix.pch"; sourceTree = "<group>"; };
-		66A0AC02169ED25D00A20070 /* cordova-2.2.0.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "cordova-2.2.0.js"; sourceTree = "<group>"; };
-		66A0AC04169ED25D00A20070 /* index.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
-		66A0AC05169ED25D00A20070 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		66A0AC06169ED25D00A20070 /* jasmine.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jasmine.html; sourceTree = "<group>"; };
-		66A0AC08169ED25D00A20070 /* drum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drum.mp3; sourceTree = "<group>"; };
-		66A0AC09169ED25D00A20070 /* hihat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hihat.mp3; sourceTree = "<group>"; };
-		66A0AC0A169ED25D00A20070 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
-		66A0AC0C169ED25D00A20070 /* jquery-1.8.3.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.8.3.min.js"; sourceTree = "<group>"; };
-		66A0AC0D169ED25D00A20070 /* LowLatencyAudio.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = LowLatencyAudio.js; sourceTree = "<group>"; };
-		66A0AC0E169ED25D00A20070 /* smoothie.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = smoothie.js; sourceTree = "<group>"; };
-		66A0AC0F169ED25D00A20070 /* metronome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = metronome.mp3; sourceTree = "<group>"; };
-		66A0AC11169ED25D00A20070 /* accelerometer-playback.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "accelerometer-playback.js"; sourceTree = "<group>"; };
-		66A0AC12169ED25D00A20070 /* accelerometer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = accelerometer.js; sourceTree = "<group>"; };
-		66A0AC13169ED25D00A20070 /* datastream.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = datastream.js; sourceTree = "<group>"; };
-		66A0AC14169ED25D00A20070 /* detector.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = detector.js; sourceTree = "<group>"; };
-		66A0AC15169ED25D00A20070 /* metronome.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = metronome.js; sourceTree = "<group>"; };
-		66A0AC16169ED25D00A20070 /* score-calculator.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "score-calculator.js"; sourceTree = "<group>"; };
-		66A0AC17169ED25D00A20070 /* sound.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sound.js; sourceTree = "<group>"; };
-		66A0AC18169ED25D00A20070 /* ui.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ui.js; sourceTree = "<group>"; };
-		66A0AC19169ED25D00A20070 /* rower.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rower.js; sourceTree = "<group>"; };
-		66A0AC1D169ED25D00A20070 /* icon-57-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57-2x.png"; sourceTree = "<group>"; };
-		66A0AC1E169ED25D00A20070 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
-		66A0AC1F169ED25D00A20070 /* icon-72-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72-2x.png"; sourceTree = "<group>"; };
-		66A0AC20169ED25D00A20070 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
-		66A0AC23169ED25D00A20070 /* screen-ipad-landscape-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-ipad-landscape-2x.png"; sourceTree = "<group>"; };
-		66A0AC24169ED25D00A20070 /* screen-ipad-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-ipad-landscape.png"; sourceTree = "<group>"; };
-		66A0AC25169ED25D00A20070 /* screen-ipad-portrait-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-ipad-portrait-2x.png"; sourceTree = "<group>"; };
-		66A0AC26169ED25D00A20070 /* screen-ipad-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-ipad-portrait.png"; sourceTree = "<group>"; };
-		66A0AC27169ED25D00A20070 /* screen-iphone-landscape-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-iphone-landscape-2x.png"; sourceTree = "<group>"; };
-		66A0AC28169ED25D00A20070 /* screen-iphone-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-iphone-landscape.png"; sourceTree = "<group>"; };
-		66A0AC29169ED25D00A20070 /* screen-iphone-portrait-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-iphone-portrait-2x.png"; sourceTree = "<group>"; };
-		66A0AC2A169ED25D00A20070 /* screen-iphone-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-iphone-portrait.png"; sourceTree = "<group>"; };
-		66A0AC2C169ED25D00A20070 /* accelerometerSpec.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = accelerometerSpec.js; sourceTree = "<group>"; };
-		66A0AC2D169ED25D00A20070 /* detectorSpec.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = detectorSpec.js; sourceTree = "<group>"; };
-		66A0AC2E169ED25D00A20070 /* filterSpec.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = filterSpec.js; sourceTree = "<group>"; };
-		66A0AC2F169ED25D00A20070 /* helper.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = helper.js; sourceTree = "<group>"; };
-		66A0AC30169ED25D00A20070 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
-		66A0AC32169ED25D00A20070 /* console-runner.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "console-runner.js"; sourceTree = "<group>"; };
-		66A0AC34169ED25D00A20070 /* jasmine-html.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jasmine-html.js"; sourceTree = "<group>"; };
-		66A0AC35169ED25D00A20070 /* jasmine.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jasmine.css; sourceTree = "<group>"; };
-		66A0AC36169ED25D00A20070 /* jasmine.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jasmine.js; sourceTree = "<group>"; };
-		66A0AC37169ED25D00A20070 /* MIT.LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MIT.LICENSE; sourceTree = "<group>"; };
-		66A0AC38169ED25D00A20070 /* metronomeSpec.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = metronomeSpec.js; sourceTree = "<group>"; };
-		66A0AC39169ED25D00A20070 /* mock-data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mock-data.csv"; sourceTree = "<group>"; };
-		66A0AC3A169ED25D00A20070 /* rowerSpec.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rowerSpec.js; sourceTree = "<group>"; };
-		66A0AC3B169ED25D00A20070 /* run-tests.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "run-tests.sh"; sourceTree = "<group>"; };
-		66A0AC3C169ED25D00A20070 /* scoreCalculatorSpec.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scoreCalculatorSpec.js; sourceTree = "<group>"; };
-		66A0AC3D169ED25D00A20070 /* soundPlayerSpec.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = soundPlayerSpec.js; sourceTree = "<group>"; };
+		664D86EF169EDABA00DC25EA /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../www; sourceTree = "<group>"; };
+		664D86F1169EDAC700DC25EA /* www-ios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "www-ios"; sourceTree = "<group>"; };
 		66B7655F16920CB100AB0B5E /* LowLatencyAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowLatencyAudio.h; sourceTree = "<group>"; };
 		66B7656016920CB100AB0B5E /* LowLatencyAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowLatencyAudio.m; sourceTree = "<group>"; };
 		66B7656216920D7D00AB0B5E /* LowLatencyAudioAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowLatencyAudioAsset.h; sourceTree = "<group>"; };
@@ -272,7 +180,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				66A0AC01169ED25D00A20070 /* www */,
+				664D86F1169EDAC700DC25EA /* www-ios */,
+				664D86EF169EDABA00DC25EA /* www */,
 				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				307C750510C5A3420062BCA9 /* Plugins */,
@@ -392,157 +301,6 @@
 			path = se.lproj;
 			sourceTree = "<group>";
 		};
-		66A0AC01169ED25D00A20070 /* www */ = {
-			isa = PBXGroup;
-			children = (
-				66A0AC02169ED25D00A20070 /* cordova-2.2.0.js */,
-				66A0AC03169ED25D00A20070 /* css */,
-				66A0AC05169ED25D00A20070 /* index.html */,
-				66A0AC06169ED25D00A20070 /* jasmine.html */,
-				66A0AC07169ED25D00A20070 /* js */,
-				66A0AC1A169ED25D00A20070 /* res */,
-				66A0AC2B169ED25D00A20070 /* spec */,
-			);
-			path = www;
-			sourceTree = "<group>";
-		};
-		66A0AC03169ED25D00A20070 /* css */ = {
-			isa = PBXGroup;
-			children = (
-				66A0AC04169ED25D00A20070 /* index.css */,
-			);
-			path = css;
-			sourceTree = "<group>";
-		};
-		66A0AC07169ED25D00A20070 /* js */ = {
-			isa = PBXGroup;
-			children = (
-				66A0AC08169ED25D00A20070 /* drum.mp3 */,
-				66A0AC09169ED25D00A20070 /* hihat.mp3 */,
-				66A0AC0A169ED25D00A20070 /* index.js */,
-				66A0AC0B169ED25D00A20070 /* lib */,
-				66A0AC0F169ED25D00A20070 /* metronome.mp3 */,
-				66A0AC10169ED25D00A20070 /* rower */,
-				66A0AC19169ED25D00A20070 /* rower.js */,
-			);
-			path = js;
-			sourceTree = "<group>";
-		};
-		66A0AC0B169ED25D00A20070 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				66A0AC0C169ED25D00A20070 /* jquery-1.8.3.min.js */,
-				66A0AC0D169ED25D00A20070 /* LowLatencyAudio.js */,
-				66A0AC0E169ED25D00A20070 /* smoothie.js */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		66A0AC10169ED25D00A20070 /* rower */ = {
-			isa = PBXGroup;
-			children = (
-				66A0AC11169ED25D00A20070 /* accelerometer-playback.js */,
-				66A0AC12169ED25D00A20070 /* accelerometer.js */,
-				66A0AC13169ED25D00A20070 /* datastream.js */,
-				66A0AC14169ED25D00A20070 /* detector.js */,
-				66A0AC15169ED25D00A20070 /* metronome.js */,
-				66A0AC16169ED25D00A20070 /* score-calculator.js */,
-				66A0AC17169ED25D00A20070 /* sound.js */,
-				66A0AC18169ED25D00A20070 /* ui.js */,
-			);
-			path = rower;
-			sourceTree = "<group>";
-		};
-		66A0AC1A169ED25D00A20070 /* res */ = {
-			isa = PBXGroup;
-			children = (
-				66A0AC1B169ED25D00A20070 /* icon */,
-				66A0AC21169ED25D00A20070 /* screen */,
-			);
-			path = res;
-			sourceTree = "<group>";
-		};
-		66A0AC1B169ED25D00A20070 /* icon */ = {
-			isa = PBXGroup;
-			children = (
-				66A0AC1C169ED25D00A20070 /* ios */,
-			);
-			path = icon;
-			sourceTree = "<group>";
-		};
-		66A0AC1C169ED25D00A20070 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				66A0AC1D169ED25D00A20070 /* icon-57-2x.png */,
-				66A0AC1E169ED25D00A20070 /* icon-57.png */,
-				66A0AC1F169ED25D00A20070 /* icon-72-2x.png */,
-				66A0AC20169ED25D00A20070 /* icon-72.png */,
-			);
-			path = ios;
-			sourceTree = "<group>";
-		};
-		66A0AC21169ED25D00A20070 /* screen */ = {
-			isa = PBXGroup;
-			children = (
-				66A0AC22169ED25D00A20070 /* ios */,
-			);
-			path = screen;
-			sourceTree = "<group>";
-		};
-		66A0AC22169ED25D00A20070 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				66A0AC23169ED25D00A20070 /* screen-ipad-landscape-2x.png */,
-				66A0AC24169ED25D00A20070 /* screen-ipad-landscape.png */,
-				66A0AC25169ED25D00A20070 /* screen-ipad-portrait-2x.png */,
-				66A0AC26169ED25D00A20070 /* screen-ipad-portrait.png */,
-				66A0AC27169ED25D00A20070 /* screen-iphone-landscape-2x.png */,
-				66A0AC28169ED25D00A20070 /* screen-iphone-landscape.png */,
-				66A0AC29169ED25D00A20070 /* screen-iphone-portrait-2x.png */,
-				66A0AC2A169ED25D00A20070 /* screen-iphone-portrait.png */,
-			);
-			path = ios;
-			sourceTree = "<group>";
-		};
-		66A0AC2B169ED25D00A20070 /* spec */ = {
-			isa = PBXGroup;
-			children = (
-				66A0AC2C169ED25D00A20070 /* accelerometerSpec.js */,
-				66A0AC2D169ED25D00A20070 /* detectorSpec.js */,
-				66A0AC2E169ED25D00A20070 /* filterSpec.js */,
-				66A0AC2F169ED25D00A20070 /* helper.js */,
-				66A0AC30169ED25D00A20070 /* index.js */,
-				66A0AC31169ED25D00A20070 /* lib */,
-				66A0AC38169ED25D00A20070 /* metronomeSpec.js */,
-				66A0AC39169ED25D00A20070 /* mock-data.csv */,
-				66A0AC3A169ED25D00A20070 /* rowerSpec.js */,
-				66A0AC3B169ED25D00A20070 /* run-tests.sh */,
-				66A0AC3C169ED25D00A20070 /* scoreCalculatorSpec.js */,
-				66A0AC3D169ED25D00A20070 /* soundPlayerSpec.js */,
-			);
-			path = spec;
-			sourceTree = "<group>";
-		};
-		66A0AC31169ED25D00A20070 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				66A0AC32169ED25D00A20070 /* console-runner.js */,
-				66A0AC33169ED25D00A20070 /* jasmine-1.2.0 */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		66A0AC33169ED25D00A20070 /* jasmine-1.2.0 */ = {
-			isa = PBXGroup;
-			children = (
-				66A0AC34169ED25D00A20070 /* jasmine-html.js */,
-				66A0AC35169ED25D00A20070 /* jasmine.css */,
-				66A0AC36169ED25D00A20070 /* jasmine.js */,
-				66A0AC37169ED25D00A20070 /* MIT.LICENSE */,
-			);
-			path = "jasmine-1.2.0";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -634,28 +392,8 @@
 				3088BBC1154F3926009F9C59 /* Default@2x~iphone.png in Resources */,
 				3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */,
 				D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */,
-				66A0AC3F169ED25D00A20070 /* index.css in Resources */,
-				66A0AC40169ED25D00A20070 /* index.html in Resources */,
-				66A0AC41169ED25D00A20070 /* jasmine.html in Resources */,
-				66A0AC42169ED25D00A20070 /* drum.mp3 in Resources */,
-				66A0AC43169ED25D00A20070 /* hihat.mp3 in Resources */,
-				66A0AC48169ED25D00A20070 /* metronome.mp3 in Resources */,
-				66A0AC52169ED25D00A20070 /* icon-57-2x.png in Resources */,
-				66A0AC53169ED25D00A20070 /* icon-57.png in Resources */,
-				66A0AC54169ED25D00A20070 /* icon-72-2x.png in Resources */,
-				66A0AC55169ED25D00A20070 /* icon-72.png in Resources */,
-				66A0AC56169ED25D00A20070 /* screen-ipad-landscape-2x.png in Resources */,
-				66A0AC57169ED25D00A20070 /* screen-ipad-landscape.png in Resources */,
-				66A0AC58169ED25D00A20070 /* screen-ipad-portrait-2x.png in Resources */,
-				66A0AC59169ED25D00A20070 /* screen-ipad-portrait.png in Resources */,
-				66A0AC5A169ED25D00A20070 /* screen-iphone-landscape-2x.png in Resources */,
-				66A0AC5B169ED25D00A20070 /* screen-iphone-landscape.png in Resources */,
-				66A0AC5C169ED25D00A20070 /* screen-iphone-portrait-2x.png in Resources */,
-				66A0AC5D169ED25D00A20070 /* screen-iphone-portrait.png in Resources */,
-				66A0AC65169ED25D00A20070 /* jasmine.css in Resources */,
-				66A0AC67169ED25D00A20070 /* MIT.LICENSE in Resources */,
-				66A0AC69169ED25D00A20070 /* mock-data.csv in Resources */,
-				66A0AC6B169ED25D00A20070 /* run-tests.sh in Resources */,
+				664D86F0169EDABA00DC25EA /* www in Resources */,
+				664D86F2169EDAC700DC25EA /* www-ios in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,32 +426,6 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				66B7656116920CB100AB0B5E /* LowLatencyAudio.m in Sources */,
 				66B7656416920D7D00AB0B5E /* LowLatencyAudioAsset.m in Sources */,
-				66A0AC3E169ED25D00A20070 /* cordova-2.2.0.js in Sources */,
-				66A0AC44169ED25D00A20070 /* index.js in Sources */,
-				66A0AC45169ED25D00A20070 /* jquery-1.8.3.min.js in Sources */,
-				66A0AC46169ED25D00A20070 /* LowLatencyAudio.js in Sources */,
-				66A0AC47169ED25D00A20070 /* smoothie.js in Sources */,
-				66A0AC49169ED25D00A20070 /* accelerometer-playback.js in Sources */,
-				66A0AC4A169ED25D00A20070 /* accelerometer.js in Sources */,
-				66A0AC4B169ED25D00A20070 /* datastream.js in Sources */,
-				66A0AC4C169ED25D00A20070 /* detector.js in Sources */,
-				66A0AC4D169ED25D00A20070 /* metronome.js in Sources */,
-				66A0AC4E169ED25D00A20070 /* score-calculator.js in Sources */,
-				66A0AC4F169ED25D00A20070 /* sound.js in Sources */,
-				66A0AC50169ED25D00A20070 /* ui.js in Sources */,
-				66A0AC51169ED25D00A20070 /* rower.js in Sources */,
-				66A0AC5E169ED25D00A20070 /* accelerometerSpec.js in Sources */,
-				66A0AC5F169ED25D00A20070 /* detectorSpec.js in Sources */,
-				66A0AC60169ED25D00A20070 /* filterSpec.js in Sources */,
-				66A0AC61169ED25D00A20070 /* helper.js in Sources */,
-				66A0AC62169ED25D00A20070 /* index.js in Sources */,
-				66A0AC63169ED25D00A20070 /* console-runner.js in Sources */,
-				66A0AC64169ED25D00A20070 /* jasmine-html.js in Sources */,
-				66A0AC66169ED25D00A20070 /* jasmine.js in Sources */,
-				66A0AC68169ED25D00A20070 /* metronomeSpec.js in Sources */,
-				66A0AC6A169ED25D00A20070 /* rowerSpec.js in Sources */,
-				66A0AC6C169ED25D00A20070 /* scoreCalculatorSpec.js in Sources */,
-				66A0AC6D169ED25D00A20070 /* soundPlayerSpec.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
