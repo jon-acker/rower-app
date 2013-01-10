@@ -25,7 +25,7 @@ describe ('metronome start()', function() {
         runs(function() {
             var sound = null
             Rower.Metronome.start(speed, sound);
-        })
+        });
         
         waitsFor(function() {
             return (onMetronomePulse.calls.length > 1);
@@ -41,7 +41,7 @@ describe ('metronome start()', function() {
     it ('should play its sound on every pulse', function() {
         runs(function() {
             Rower.Metronome.start(speed, mockSound);
-        })
+        });
         
         waitsFor(function() {
             return (mockSound.play.calls.length > 0);
@@ -68,7 +68,7 @@ describe('metronome setSpeed()', function() {
         })
         
         waitsFor(function() {
-            return (onMetronomePulse.calls.length >= 4);
+            return (onMetronomePulse.calls.length >= 2);
         });
         
         runs(function() {
@@ -85,18 +85,18 @@ describe('metronome setSpeed()', function() {
         runs(function() {
             onMetronomePulse.reset();
             _startTime = (new Date()).getTime();
-            Rower.Metronome.start(0);
+            Rower.Metronome.start(20);
             Rower.Metronome.setSpeed(60);
         })
         
         waitsFor(function() {
-            return (onMetronomePulse.calls.length >= 4);
+            return (onMetronomePulse.calls.length >= 2);
         });
         
         runs(function() {
             
             var _totalTime =  Math.round(((new Date()).getTime() - _startTime) / 100);
-            var _expectedTimeLapsed = 10; /* tenths of seconds */
+            var _expectedTimeLapsed = 20; /* tenths of seconds */
             
             expect(_totalTime).toBe(_expectedTimeLapsed);
         });   
@@ -117,16 +117,36 @@ describe('metronome setSpeed()', function() {
         })
         
         waitsFor(function() {
-            return (onMetronomePulse.calls.length >= 4);
-        });
+            return (onMetronomePulse.calls.length >= 2);
+        }, 'timeout on waiting for metronomePulse', 6000);
         
         runs(function() {
             
             var _totalTime =  Math.round(((new Date()).getTime() - _startTime) / 100);
-            var _expectedTimeLapsed = 30; /* tenths of seconds */
+            var _expectedTimeLapsed = 60; /* tenths of seconds */
             
             expect(_totalTime).toBe(_expectedTimeLapsed);
         });   
         
     });    
-})
+});
+
+
+describe('metronome getLastTimestamp', function() {    
+    it ('should return a positive number', function() {
+        
+        runs(function() {
+            onMetronomePulse.reset();
+            Rower.Metronome.start(60)
+        })
+        
+        waitsFor(function() {
+            return (onMetronomePulse.calls.length >= 1);
+        });
+        
+        runs(function() {
+            expect(Rower.Metronome.getLastTimestamp()).toBeGreaterThan(0)
+        });   
+        
+    });    
+});
