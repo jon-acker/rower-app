@@ -1,6 +1,5 @@
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
+describe ('module Rower.ScoreCalculator ->', function() {
+   describe('Rower.ScoreCalculator.start', function() {
+       it ('should calculate a score based on accuracy of stroke')
+   }) 
+});

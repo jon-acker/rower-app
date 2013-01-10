@@ -36,7 +36,7 @@ Rower.Metronome = (function() {
         setSpeed: function(speed) {
             _speed = speed;
             _interval = ((60 * 1000) / speed) ;
-            console.log('set speed to: '+speed);
+           // console.log('set speed to: '+speed);
         },
         
         getInterval: function() {
