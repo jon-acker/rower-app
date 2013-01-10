@@ -5,31 +5,32 @@ Rower.Metronome = (function() {
     
     var _interval; 
     var _timeoutId;
+    var _lastTimestamp;
     
     return {
         start: function(speed, sound) {
             this.setSpeed(speed);
             _sound = sound;
             
-            var timestamp = (new Date()).getTime();
+            _lastTimestamp = (new Date()).getTime();
             function run() {
 
                 var now = (new Date()).getTime();
 
-                if( now - timestamp >= _interval ) {
-                    timestamp = now;
+                if( now - _lastTimestamp >= _interval ) {
+                    _lastTimestamp = now;
 
                     if (_sound) {
                         _sound.play();
                     }                     
-                    
+
                     $(document).trigger('metronomePulse');
                 }
 
                 setTimeout(run, 10);
-            }
-            run();            
-            
+            };
+            run();
+
         },
         
         setSpeed: function(speed) {
@@ -42,8 +43,8 @@ Rower.Metronome = (function() {
             return _interval;
         },
         
-        rampUp: function(to) {
-            
+        getLastTimestamp: function() {
+            return _lastTimestamp;
         }
         
         
