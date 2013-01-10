@@ -1,0 +1,8 @@
+Rower.ScoreCalculator = (function() {
+   
+   
+   return {
+       
+   }
+   
+});

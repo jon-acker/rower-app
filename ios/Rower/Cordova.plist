@@ -6,8 +6,6 @@
 	<true/>
 	<key>SuppressesIncrementalRendering</key>
 	<false/>
-	<key>TopActivityIndicator</key>
-	<string>gray</string>
 	<key>EnableLocation</key>
 	<false/>
 	<key>EnableViewportScale</key>
@@ -16,6 +14,8 @@
 	<true/>
 	<key>ShowSplashScreenSpinner</key>
 	<true/>
+	<key>TopActivityIndicator</key>
+	<string>gray</string>
 	<key>MediaPlaybackRequiresUserAction</key>
 	<false/>
 	<key>AllowInlineMediaPlayback</key>
@@ -32,6 +32,8 @@
 	<false/>
 	<key>Plugins</key>
 	<dict>
+		<key>LowLatencyAudio</key>
+		<string>LowLatencyAudio</string>
 		<key>Device</key>
 		<string>CDVDevice</string>
 		<key>Logger</key>
