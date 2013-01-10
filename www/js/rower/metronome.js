@@ -3,7 +3,7 @@ Rower.Metronome = (function() {
     var _sound;
     var _speed; // SPM
     
-    var _interval; 
+    var _interval = 500; // default
     var _timeoutId;
     var _lastTimestamp;
     
