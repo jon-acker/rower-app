@@ -1,6 +1,6 @@
 Rower.Datastream = {};
 
-Rower.Datastream.sampleInterval = 130;
+Rower.Datastream.sampleInterval = 20;
 
 
 Rower.Datastream.filter = function(cutoff) {
