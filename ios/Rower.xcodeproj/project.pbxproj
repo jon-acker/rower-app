@@ -41,8 +41,8 @@
 		30A0434914DC770100060A13 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A0434614DC770100060A13 /* Localizable.strings */; };
 		30E1352710E2C1420031B30D /* Cordova.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30E1352610E2C1420031B30D /* Cordova.plist */; };
 		30E5649213A7FCAF007403D8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E5649113A7FCAF007403D8 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		663E42A916A06D8B00EA9795 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 663E42A816A06D8B00EA9795 /* www */; };
 		664D86F0169EDABA00DC25EA /* www in Resources */ = {isa = PBXBuildFile; fileRef = 664D86EF169EDABA00DC25EA /* www */; };
-		664D86F2169EDAC700DC25EA /* www-ios in Resources */ = {isa = PBXBuildFile; fileRef = 664D86F1169EDAC700DC25EA /* www-ios */; };
 		66B7656116920CB100AB0B5E /* LowLatencyAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B7656016920CB100AB0B5E /* LowLatencyAudio.m */; };
 		66B7656416920D7D00AB0B5E /* LowLatencyAudioAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B7656316920D7D00AB0B5E /* LowLatencyAudioAsset.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
@@ -104,8 +104,8 @@
 		30E1352610E2C1420031B30D /* Cordova.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Cordova.plist; path = ../Cordova.plist; sourceTree = "<group>"; };
 		30E5649113A7FCAF007403D8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		32CA4F630368D1EE00C91783 /* Rower-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rower-Prefix.pch"; sourceTree = "<group>"; };
+		663E42A816A06D8B00EA9795 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		664D86EF169EDABA00DC25EA /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../www; sourceTree = "<group>"; };
-		664D86F1169EDAC700DC25EA /* www-ios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "www-ios"; sourceTree = "<group>"; };
 		66B7655F16920CB100AB0B5E /* LowLatencyAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowLatencyAudio.h; sourceTree = "<group>"; };
 		66B7656016920CB100AB0B5E /* LowLatencyAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowLatencyAudio.m; sourceTree = "<group>"; };
 		66B7656216920D7D00AB0B5E /* LowLatencyAudioAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowLatencyAudioAsset.h; sourceTree = "<group>"; };
@@ -180,7 +180,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				664D86F1169EDAC700DC25EA /* www-ios */,
+				663E42A816A06D8B00EA9795 /* www */,
 				664D86EF169EDABA00DC25EA /* www */,
 				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -393,7 +393,7 @@
 				3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */,
 				D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */,
 				664D86F0169EDABA00DC25EA /* www in Resources */,
-				664D86F2169EDAC700DC25EA /* www-ios in Resources */,
+				663E42A916A06D8B00EA9795 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

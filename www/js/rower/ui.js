@@ -45,6 +45,16 @@ Rower.UI = (function() {
                 _strokeSound.play();
                 $('#status').text('SPM: ' + spm.toFixed(1)).show().delay(300).fadeOut(500);
             });
+            
+
+            /**
+             * @event scoreCalculated
+             * @param {object} event
+             * 
+             */
+            $(document).on('scoreCalculated', function(event, spm) {
+                $('#score').text(Rower.ScoreCalculator.getCurrentScore());
+            });            
         },
 
         /**

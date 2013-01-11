@@ -13,6 +13,7 @@ Rower.ScoreCalculator = (function() {
            $(document).on('backwardsRowingDetected', function(event, accel) {
                _lastStrokeTimestamp = accel.timestamp;
                Rower.ScoreCalculator.calculate();
+               $(document).trigger('scoreCalculated');
            });
            
            $(document).on('metronomePulse', function() {

@@ -10,8 +10,8 @@ Rower.Detector.start = function () {
     
     var _accelSum = 0;
     var _shakeThreshold = 8;
-    var _backwardsAccelSumThreshold = -5.5;
-    var _forwardsAccelSumThreshold = 5;
+    var _backwardsAccelSumThreshold = -5.0;
+    var _forwardsAccelSumThreshold = 4;
     var _accelSumThresholdOver = false;
     var _numStrokes = 0;
     var _startTime = 0;

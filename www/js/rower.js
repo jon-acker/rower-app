@@ -10,8 +10,8 @@ var Rower = (function(){
             setTimeout(function() {
                 Rower.Metronome.setSpeed(45); 
             }, 10000);
-            
-            //_accelerometer = new Rower.AccelerometerPlayback(Rower.Datastream.sampleInterval);
+
+            //_accelerometer = new Rower.AccelerometerPlayback(133);
             _accelerometer = new Rower.Accelerometer(Rower.Datastream.sampleInterval);
             _accelerometer.start();
             Rower.UI.start();
